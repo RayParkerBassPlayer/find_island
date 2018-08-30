@@ -130,6 +130,8 @@ puts text
 # Update the matrix by claiming all of the islands.
 island_bucket.each_with_index do |island, index|
   island.each do |coordinate|
+    # The matrix is acutally off by 90 degrees, so reverse X and Y to 
+    # account for this.
     MATRIX[coordinate[Y]][coordinate[X]] = (index + 1).to_s
   end
 end
