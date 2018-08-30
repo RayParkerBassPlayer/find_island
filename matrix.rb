@@ -31,10 +31,6 @@ MAX_Y = MATRIX.size - 1
 MIN_X = MIN_Y = 0
 X = 0
 Y = 1
-NORTH = 0
-SOUTH = 1
-EAST = 2
-WEST = 3
 
 # A recursive search given a coordinate.  Makes heavy use of globals and constants, above.
 # Arguments:  :coordinate: is a desired starting point on the grid.  Caller is expected to send 
