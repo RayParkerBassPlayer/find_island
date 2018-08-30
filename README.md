@@ -3,7 +3,7 @@ This is a recursive study to find 'islands' of '1's in a sea of '0's.  The sea b
 
 #Output
 
-```ruby
+```bash
 Finding islands in the matrix [24, 12]
 1: #<Set: {[4, 1], [5, 1], [5, 2], [6, 2], [6, 1], [6, 3], [7, 3], [8, 3], [9, 3], [9, 2]}>
 2: #<Set: {[4, 11], [5, 11], [6, 11]}>
